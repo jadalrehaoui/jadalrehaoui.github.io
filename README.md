@@ -96,4 +96,4 @@ Because the application is now designed the way it is, it is easier to add a mob
 **Code Review**
 
 Please refer to the video attachment submitted along with this file.
-![image](https://github.com/jadalrehaoui/jadalrehaoui.github.io/assets/64440563/067cb9fe-6680-426c-8e39-14ae1b279929)
+
