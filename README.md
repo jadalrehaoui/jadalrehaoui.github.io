@@ -1,7 +1,7 @@
 # jadalrehaoui.github.io
 
 
-Professional Self-Assessment
+***Professional Self-Assessment***
 
 I have been in the computer science program since September 2021. While I already had a bachelor’s degree in information and communication technology, I always wanted a ticket to enter the programming world and become a software engineer. I have learned that there are many that coding is just a tool and what really makes it shine it is planned and designed in a good way. I also learned to keep in mind security, portability and maintainability when developing applications. 
 
