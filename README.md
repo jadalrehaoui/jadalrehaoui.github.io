@@ -38,7 +38,7 @@ The content management system is built using the angular framework. It is respon
 The architecture implemented in this project is a client-server one. The server responsible for managing REST APIs and the client responsible to rendering the views to the user. 
 ![image](https://github.com/jadalrehaoui/jadalrehaoui.github.io/blob/main/clientServerArch.png?raw=true)
 The front end can be accessed by anyone with an internet connection. It is where Travlr markets their deals and trips. The content management system on the other hand, can be accessed from anywhere too but authentication is required. In order to be authenticated, only admins on the system can create new accounts and share them with authorized users. There is no register page for the CMS. 
-![image](https://github.com/jadalrehaoui/jadalrehaoui.github.io/blob/main/Architecture.png)
+![image](https://github.com/jadalrehaoui/jadalrehaoui.github.io/blob/main/Architecture.png?raw=true)
 
 In this phase, I enhanced the design in the following manners: 
 *	Converted the front end from a standalone NodeJS/ExpressJS server to angular.
@@ -53,7 +53,7 @@ In this project I employed the MVC pattern, that consists of Models, Views and C
 This pattern is not only employed to make working on a project easier, but it also tells other developers how the project is divided and where they can find code to refine and update.
 Here’s a visualization of how MVC work here:
 
-![image](https://github.com/jadalrehaoui/jadalrehaoui.github.io/blob/main/Sequence%20Diagram.png)
+![image](https://github.com/jadalrehaoui/jadalrehaoui.github.io/blob/main/Sequence%20Diagram.png?raw=true)
 
 *Model*
 
@@ -72,7 +72,7 @@ For this project, all the views are managed with angular, however the API server
 While developing this application, I was always ensuring to follow well known algorithms to make things work as they should. For example, the authentication process is a very common process in almost every application out there so why reinvent the wheel? I used JWT (JsonWebToken) a package from npm to sign the users. My authentication process does not require users to sign out, however each user signed in has a limited time that we can configure.
 
 Here's a flowchart to visualize how authentication works in this application. This model is simplified, however in the code this is what passport (an npm package) does in the background.
-![image](https://github.com/jadalrehaoui/jadalrehaoui.github.io/blob/main/LoginProcess.png)
+![image](https://github.com/jadalrehaoui/jadalrehaoui.github.io/blob/main/LoginProcess.png?raw=true)
 
 **Databases**
 
