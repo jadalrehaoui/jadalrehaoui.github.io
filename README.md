@@ -53,6 +53,8 @@ In this project I employed the MVC pattern, that consists of Models, Views and C
 This pattern is not only employed to make working on a project easier, but it also tells other developers how the project is divided and where they can find code to refine and update.
 Here’s a visualization of how MVC work here:
 
+![image](https://github.com/jadalrehaoui/jadalrehaoui.github.io/blob/main/Sequence%20Diagram.png)
+
 *Model*
 
 The model for this project is the entity saved in the database. It is a schema that we specify for the type and information needed in a document in the database.
@@ -70,6 +72,7 @@ For this project, all the views are managed with angular, however the API server
 While developing this application, I was always ensuring to follow well known algorithms to make things work as they should. For example, the authentication process is a very common process in almost every application out there so why reinvent the wheel? I used JWT (JsonWebToken) a package from npm to sign the users. My authentication process does not require users to sign out, however each user signed in has a limited time that we can configure.
 
 Here's a flowchart to visualize how authentication works in this application. This model is simplified, however in the code this is what passport (an npm package) does in the background.
+![image](https://github.com/jadalrehaoui/jadalrehaoui.github.io/blob/main/LoginProcess.png)
 
 **Databases**
 
