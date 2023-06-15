@@ -36,7 +36,7 @@ The content management system is built using the angular framework. It is respon
 *System Architecture*
 
 The architecture implemented in this project is a client-server one. The server responsible for managing REST APIs and the client responsible to rendering the views to the user. 
-
+![image](https://github.com/jadalrehaoui/jadalrehaoui.github.io/blob/main/clientServerArch.png)
 The front end can be accessed by anyone with an internet connection. It is where Travlr markets their deals and trips. The content management system on the other hand, can be accessed from anywhere too but authentication is required. In order to be authenticated, only admins on the system can create new accounts and share them with authorized users. There is no register page for the CMS. 
 ![image](https://github.com/jadalrehaoui/jadalrehaoui.github.io/blob/main/Architecture.png)
 
